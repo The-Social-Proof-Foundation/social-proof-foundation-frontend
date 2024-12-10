@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+  }
+}
+
+.header-title {
+  font-family: 'Noto Serif', serif;
+}
+
+.footer-text {
+  font-family: 'Courier New', Courier, monospace;
+}
