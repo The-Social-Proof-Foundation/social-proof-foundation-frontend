@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
           </a>
           <div className="footer-text text-sm text-center text-white/70">
             <p>© {new Date().getFullYear()} The Social Proof Foundation.</p>
-            <p>All rights reserved.</p>
+            <p>Made with ❤️ by the Social Proof Foundation in America.</p>
           </div>
         </div>
       </footer>
