@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
       <footer className="w-full bg-black py-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col items-center">
           <a
-            href="https://twitter.com/socialprooffdn"
+            href="https://x.com/0xSocialProof"
             target="_blank"
             rel="noopener noreferrer"
             className="mb-8 text-white/70 hover:text-white transition-colors"
