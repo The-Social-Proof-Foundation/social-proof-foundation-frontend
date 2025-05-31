@@ -4,7 +4,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-black py-8">
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center">
-        <div className="flex space-x-6 mb-8">
+        <div className="flex space-x-6 mb-6">
           <a
             href="https://x.com/0xSocialProof"
             target="_blank"
@@ -27,8 +27,8 @@ export const Footer: React.FC = () => {
           </a>
         </div>
         <div className="footer-text text-xs text-center text-white/70 font-extralight tracking-wider">
-          <p>We are the network.</p>
-          <p className="pt-2">© {new Date().getFullYear()} The Social Proof Foundation.</p>
+          <p className="font-semibold">We are the network</p>
+          <p className="pt-2">© {new Date().getFullYear()} The Social Proof Foundation, LLC.</p>
         </div>
       </div>
     </footer>
